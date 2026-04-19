@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://issue-tracker-backend-8mqf.onrender.com",
 });
 
 api.interceptors.request.use((config: any) => {
